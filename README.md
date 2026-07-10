@@ -4,6 +4,8 @@
 
 ![成组的 RimWorld 通知 / Bundled RimWorld notifications](Picture.png)
 
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3761571006) | [GitHub Releases](https://github.com/Juggernautsst/ClearAllNotifications/releases)
+
 为 RimWorld 1.6 添加一个右上角通知清理按钮。按钮只清除原版允许右键关闭的信件，需要玩家作出选择的信件会保留；已清除信件仍可在历史记录中查看。
 
 Adds a top-right notification clear button for RimWorld 1.6. It removes only letters that vanilla allows the player to dismiss, keeps action-required letters, and leaves cleared letters available in History.
