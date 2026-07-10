@@ -2,7 +2,7 @@
 
 [![Build](https://github.com/Juggernautsst/ClearAllNotifications/actions/workflows/build.yml/badge.svg)](https://github.com/Juggernautsst/ClearAllNotifications/actions/workflows/build.yml)
 
-![成组的 RimWorld 通知 / Bundled RimWorld notifications](Picture.png)
+![成组的 RimWorld 通知 / Bundled RimWorld notifications](About/Preview.png)
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3761571006) | [GitHub Releases](https://github.com/Juggernautsst/ClearAllNotifications/releases)
 
