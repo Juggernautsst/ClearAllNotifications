@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CAN_ClearNotificationsTitle>Clear notifications</CAN_ClearNotificationsTitle>
+  <CAN_ClearNotificationsTooltip>Clear {0} dismissible notification(s)</CAN_ClearNotificationsTooltip>
+  <CAN_ClearNotificationsConfirmation>Clear {0} dismissible notification(s)? Notifications that require an action or choice will be kept. Cleared notifications will remain available in History.</CAN_ClearNotificationsConfirmation>
+</LanguageData>

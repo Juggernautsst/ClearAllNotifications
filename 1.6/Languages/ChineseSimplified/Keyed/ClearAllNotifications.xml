@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CAN_ClearNotificationsTitle>清除通知</CAN_ClearNotificationsTitle>
+  <CAN_ClearNotificationsTooltip>清除 {0} 条可关闭通知</CAN_ClearNotificationsTooltip>
+  <CAN_ClearNotificationsConfirmation>确定要清除 {0} 条可关闭通知吗？需要处理或选择的通知将被保留。已清除的通知仍可在“历史记录”中查看。</CAN_ClearNotificationsConfirmation>
+</LanguageData>

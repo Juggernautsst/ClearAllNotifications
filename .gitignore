@@ -1,0 +1,5 @@
+1.6/Assemblies/*
+Source/bin/
+Source/obj/
+load-test.log
+*.zip
