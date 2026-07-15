@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#334041" opacity="0.36"/>
+    </pattern>
+    <symbol id="mail" viewBox="0 0 24 24">
+      <rect x="2" y="4" width="20" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" fill="none" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+    <symbol id="trash" viewBox="0 0 24 24">
+      <path d="M3 6h18M8 6V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v2M19 6l-1 14c-.1 1.1-1 2-2 2H8c-1.1 0-1.9-.9-2-2L5 6M10 11v6M14 11v6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="shield" viewBox="0 0 24 24">
+      <path d="M20 13c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V5l8-3 8 3v8Z" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="history" viewBox="0 0 24 24">
+      <path d="M3 12a9 9 0 1 0 3-6.7L3 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 3v5h5M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="900" fill="#141a1c"/>
+  <rect width="1600" height="900" fill="url(#dots)"/>
+  <rect width="1600" height="16" fill="#5bc0be"/>
+
+  <g font-family="FandolHei, Droid Sans Fallback, sans-serif">
+    <text x="72" y="108" fill="#f3f2ea" font-size="64" font-weight="700">安全的三步清理流程</text>
+    <text x="74" y="161" fill="#aeb8b4" font-size="29">只有存在可关闭信件时，清理按钮才会显示</text>
+  </g>
+
+  <path d="M534 206V706M1066 206V706" stroke="#53605e" stroke-width="2" opacity="0.72"/>
+
+  <g font-family="FandolHei, Droid Sans Fallback, sans-serif">
+    <text x="76" y="246" fill="#e9c46a" font-size="32" font-weight="700">01　点击按钮</text>
+    <g transform="translate(134 304)">
+      <rect x="62" y="0" width="200" height="128" rx="7" fill="#edf0e9"/>
+      <rect x="62" y="0" width="10" height="128" fill="#e9c46a"/>
+      <use href="#mail" x="96" y="37" width="54" height="54" color="#283334"/>
+      <rect x="170" y="41" width="62" height="12" rx="6" fill="#687472"/>
+      <rect x="170" y="71" width="44" height="10" rx="5" fill="#a3aba8"/>
+      <rect x="0" y="150" width="104" height="104" rx="8" fill="#e76f51"/>
+      <use href="#trash" x="28" y="178" width="48" height="48" color="#fffaf3"/>
+      <rect x="122" y="166" width="212" height="72" rx="7" fill="#394547" stroke="#7b8783" stroke-width="2"/>
+      <text x="150" y="212" fill="#f3f2ea" font-size="22" font-weight="700">12 条可关闭信件</text>
+    </g>
+    <text x="78" y="624" fill="#f3f2ea" font-size="30" font-weight="700">点击垃圾桶按钮</text>
+    <text x="78" y="670" fill="#bfc7c3" font-size="25">悬停可查看当前可关闭</text>
+    <text x="78" y="706" fill="#bfc7c3" font-size="25">信件的具体数量</text>
+
+    <text x="610" y="246" fill="#e76f51" font-size="32" font-weight="700">02　确认清理</text>
+    <g transform="translate(613 326)">
+      <rect x="0" y="0" width="370" height="240" rx="8" fill="#293234" stroke="#7b8783" stroke-width="2"/>
+      <rect x="0" y="0" width="370" height="48" rx="8" fill="#394547"/>
+      <text x="22" y="34" fill="#f3f2ea" font-size="22" font-weight="700">清除通知</text>
+      <use href="#trash" x="32" y="85" width="48" height="48" color="#e76f51"/>
+      <rect x="102" y="87" width="222" height="11" rx="5" fill="#d3d9d5"/>
+      <rect x="102" y="116" width="184" height="9" rx="4" fill="#8e9995"/>
+      <rect x="188" y="177" width="142" height="40" rx="6" fill="#e76f51"/>
+      <text x="233" y="206" fill="#fffaf3" font-size="20" font-weight="700">确认</text>
+      <rect x="38" y="177" width="122" height="40" rx="6" fill="#4a5657"/>
+      <text x="77" y="206" fill="#d6dcd8" font-size="20">取消</text>
+    </g>
+    <text x="610" y="624" fill="#f3f2ea" font-size="30" font-weight="700">查看数量并确认一次</text>
+    <text x="610" y="670" fill="#bfc7c3" font-size="25">已读与未读的可关闭信件</text>
+    <text x="610" y="706" fill="#bfc7c3" font-size="25">会被统一清理</text>
+
+    <text x="1142" y="246" fill="#5bc0be" font-size="32" font-weight="700">03　保留重要内容</text>
+    <g transform="translate(1164 318)">
+      <rect x="0" y="16" width="350" height="156" rx="8" fill="#edf0e9"/>
+      <rect x="0" y="16" width="12" height="156" fill="#5bc0be"/>
+      <use href="#shield" x="38" y="62" width="62" height="62" color="#287c7a"/>
+      <rect x="126" y="65" width="164" height="13" rx="6" fill="#56605e"/>
+      <rect x="126" y="99" width="116" height="10" rx="5" fill="#a6aeaa"/>
+      <use href="#history" x="131" y="204" width="76" height="76" color="#e9c46a"/>
+      <path d="M220 242h104" stroke="#e9c46a" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <text x="1142" y="624" fill="#f3f2ea" font-size="30" font-weight="700">需操作信件仍会保留</text>
+    <text x="1142" y="670" fill="#bfc7c3" font-size="25">已清理信件仍可在</text>
+    <text x="1142" y="706" fill="#bfc7c3" font-size="25">历史记录中查看</text>
+  </g>
+
+  <rect y="776" width="1600" height="124" fill="#0b0f10"/>
+  <g font-family="FandolHei, Droid Sans Fallback, sans-serif" font-size="26" font-weight="700">
+    <text x="140" y="850" fill="#e9c46a">只清理可关闭信件</text>
+    <text x="692" y="850" fill="#e76f51">不处理警报</text>
+    <text x="1088" y="850" fill="#5bc0be">不清理临时消息</text>
+  </g>
+</svg>

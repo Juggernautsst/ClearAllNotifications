@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#334041" opacity="0.36"/>
+    </pattern>
+    <symbol id="mail" viewBox="0 0 24 24">
+      <rect x="2" y="4" width="20" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" fill="none" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+    <symbol id="trash" viewBox="0 0 24 24">
+      <path d="M3 6h18M8 6V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v2M19 6l-1 14c-.1 1.1-1 2-2 2H8c-1.1 0-1.9-.9-2-2L5 6M10 11v6M14 11v6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="shield" viewBox="0 0 24 24">
+      <path d="M20 13c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V5l8-3 8 3v8Z" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="history" viewBox="0 0 24 24">
+      <path d="M3 12a9 9 0 1 0 3-6.7L3 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 3v5h5M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="900" fill="#141a1c"/>
+  <rect width="1600" height="900" fill="url(#dots)"/>
+  <rect width="1600" height="16" fill="#5bc0be"/>
+
+  <g font-family="Noto Sans, DejaVu Sans, sans-serif">
+    <text x="72" y="105" fill="#f3f2ea" font-size="62" font-weight="800">A SAFE THREE-STEP CLEANUP</text>
+    <text x="74" y="157" fill="#aeb8b4" font-size="27">The button appears only when dismissible letters exist.</text>
+  </g>
+
+  <path d="M534 206V706M1066 206V706" stroke="#53605e" stroke-width="2" opacity="0.72"/>
+
+  <g font-family="Noto Sans, DejaVu Sans, sans-serif">
+    <text x="76" y="244" fill="#e9c46a" font-size="30" font-weight="800">01  CLICK</text>
+    <g transform="translate(134 304)">
+      <rect x="62" y="0" width="200" height="128" rx="7" fill="#edf0e9"/>
+      <rect x="62" y="0" width="10" height="128" fill="#e9c46a"/>
+      <use href="#mail" x="96" y="37" width="54" height="54" color="#283334"/>
+      <rect x="170" y="41" width="62" height="12" rx="6" fill="#687472"/>
+      <rect x="170" y="71" width="44" height="10" rx="5" fill="#a3aba8"/>
+      <rect x="0" y="150" width="104" height="104" rx="8" fill="#e76f51"/>
+      <use href="#trash" x="28" y="178" width="48" height="48" color="#fffaf3"/>
+      <rect x="122" y="166" width="212" height="72" rx="7" fill="#394547" stroke="#7b8783" stroke-width="2"/>
+      <text x="145" y="211" fill="#f3f2ea" font-size="20" font-weight="700">12 DISMISSIBLE</text>
+    </g>
+    <text x="78" y="624" fill="#f3f2ea" font-size="28" font-weight="700">Click the trash button.</text>
+    <text x="78" y="670" fill="#bfc7c3" font-size="23">Hover first to see the number</text>
+    <text x="78" y="704" fill="#bfc7c3" font-size="23">of dismissible letters.</text>
+
+    <text x="610" y="244" fill="#e76f51" font-size="30" font-weight="800">02  CONFIRM</text>
+    <g transform="translate(613 326)">
+      <rect x="0" y="0" width="370" height="240" rx="8" fill="#293234" stroke="#7b8783" stroke-width="2"/>
+      <rect x="0" y="0" width="370" height="48" rx="8" fill="#394547"/>
+      <text x="22" y="33" fill="#f3f2ea" font-size="21" font-weight="700">Clear notifications</text>
+      <use href="#trash" x="32" y="85" width="48" height="48" color="#e76f51"/>
+      <rect x="102" y="87" width="222" height="11" rx="5" fill="#d3d9d5"/>
+      <rect x="102" y="116" width="184" height="9" rx="4" fill="#8e9995"/>
+      <rect x="188" y="177" width="142" height="40" rx="6" fill="#e76f51"/>
+      <text x="219" y="205" fill="#fffaf3" font-size="18" font-weight="800">CONFIRM</text>
+      <rect x="38" y="177" width="122" height="40" rx="6" fill="#4a5657"/>
+      <text x="72" y="205" fill="#d6dcd8" font-size="18">CANCEL</text>
+    </g>
+    <text x="610" y="624" fill="#f3f2ea" font-size="28" font-weight="700">Review and confirm once.</text>
+    <text x="610" y="670" fill="#bfc7c3" font-size="23">Both read and unread dismissible</text>
+    <text x="610" y="704" fill="#bfc7c3" font-size="23">letters are cleared together.</text>
+
+    <text x="1142" y="244" fill="#5bc0be" font-size="30" font-weight="800">03  KEEP WHAT MATTERS</text>
+    <g transform="translate(1164 318)">
+      <rect x="0" y="16" width="350" height="156" rx="8" fill="#edf0e9"/>
+      <rect x="0" y="16" width="12" height="156" fill="#5bc0be"/>
+      <use href="#shield" x="38" y="62" width="62" height="62" color="#287c7a"/>
+      <rect x="126" y="65" width="164" height="13" rx="6" fill="#56605e"/>
+      <rect x="126" y="99" width="116" height="10" rx="5" fill="#a6aeaa"/>
+      <use href="#history" x="131" y="204" width="76" height="76" color="#e9c46a"/>
+      <path d="M220 242h104" stroke="#e9c46a" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <text x="1142" y="624" fill="#f3f2ea" font-size="28" font-weight="700">Required letters remain.</text>
+    <text x="1142" y="670" fill="#bfc7c3" font-size="23">Cleared letters stay available</text>
+    <text x="1142" y="704" fill="#bfc7c3" font-size="23">in the History tab.</text>
+  </g>
+
+  <rect y="776" width="1600" height="124" fill="#0b0f10"/>
+  <g font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="24" font-weight="700">
+    <text x="128" y="849" fill="#e9c46a">DISMISSIBLE LETTERS ONLY</text>
+    <text x="638" y="849" fill="#e76f51">NO ALERTS</text>
+    <text x="944" y="849" fill="#5bc0be">NO TRANSIENT MESSAGES</text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#334041" stroke-width="1" opacity="0.42"/>
+    </pattern>
+    <symbol id="mail" viewBox="0 0 24 24">
+      <rect x="2" y="4" width="20" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" fill="none" stroke="currentColor" stroke-width="2"/>
+    </symbol>
+    <symbol id="trash" viewBox="0 0 24 24">
+      <path d="M3 6h18M8 6V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v2M19 6l-1 14c-.1 1.1-1 2-2 2H8c-1.1 0-1.9-.9-2-2L5 6M10 11v6M14 11v6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="shield" viewBox="0 0 24 24">
+      <path d="M20 13c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V5l8-3 8 3v8Z" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="m9 12 2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+  <rect width="512" height="512" fill="#141a1c"/>
+  <rect width="512" height="512" fill="url(#grid)"/>
+  <rect width="512" height="14" fill="#e76f51"/>
+  <path d="M0 14h278L142 512H0Z" fill="#1d2728"/>
+
+  <g transform="translate(150 74)">
+    <rect x="48" y="32" width="250" height="104" rx="7" fill="#0b0f10" opacity="0.55"/>
+    <rect x="30" y="16" width="250" height="104" rx="7" fill="#edf0e9"/>
+    <rect x="30" y="16" width="10" height="104" fill="#e9c46a"/>
+    <use href="#mail" x="61" y="46" width="46" height="46" color="#273233"/>
+    <rect x="132" y="49" width="112" height="12" rx="6" fill="#65716f"/>
+    <rect x="132" y="78" width="82" height="9" rx="4" fill="#a3aba8"/>
+
+    <rect x="16" y="160" width="250" height="104" rx="7" fill="#0b0f10" opacity="0.55"/>
+    <rect x="0" y="144" width="250" height="104" rx="7" fill="#edf0e9"/>
+    <rect x="0" y="144" width="10" height="104" fill="#5bc0be"/>
+    <use href="#shield" x="31" y="172" width="50" height="50" color="#287c7a"/>
+    <rect x="104" y="177" width="110" height="12" rx="6" fill="#65716f"/>
+    <rect x="104" y="206" width="76" height="9" rx="4" fill="#a3aba8"/>
+  </g>
+
+  <rect x="72" y="336" width="184" height="124" rx="8" fill="#e76f51"/>
+  <use href="#trash" x="105" y="369" width="58" height="58" color="#fffaf3"/>
+  <circle cx="210" cy="397" r="25" fill="#fffaf3"/>
+  <path d="M197 397h26" stroke="#e76f51" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="406" cy="407" r="58" fill="#5bc0be"/>
+  <use href="#shield" x="371" y="372" width="70" height="70" color="#102021"/>
+</svg>
